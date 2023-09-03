@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    border-radius: 4px;
+    padding-left: 935px;
+    font-family: 'Anton', sans-serif;
+    background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+}
+.navbar ul{
+    overflow: auto;
+    text-decoration: none;
+    color: white;
+    padding: 2px 4px;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 13px 20px;
+
+}
+.navbar li a{
+    padding: 3px 3px;
+}
